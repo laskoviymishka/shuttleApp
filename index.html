@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Диспетчерская для вашего маршрутного такси за 15 минут.</title>
+	<meta name="description" content="Диспетчерская для вашего маршрутного такси за 15 минут.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="http://fonts.googleapis.com/css?family=Roboto:400,100,500,300,300italic,500italic|Roboto+Condensed:400,300" rel="stylesheet">
+	<link href="lib/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/bootstrap.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<script src="scripts/modernizr.custom.js"></script>
+</head>
+<body data-spy="scroll" data-target=".header" data-offset="80">
+	<!--if lt IE 9<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	-->
+	<div id="ip-container" class="ip-container">
+		<header class="ip-header">
+			<div class="ip-loader">
+				<svg width="60px" height="60px" viewBox="0 0 80 80" class="ip-inner">
+					<path d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" class="ip-loader-circlebg"></path>
+					<path id="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" class="ip-loader-circle"></path>
+				</svg>
+			</div>
+		</header>
+		<div class="ip-main">
+			<!-- Mobile nav -->
+			<div id="cbp-spmenu" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right">
+				<div class="mobile_nav_close_button">
+					<a id="hideRight" href="">
+						<span class="close_icon zmdi zmdi-arrow-right"></span>
+					</a>
+				</div>
+				<nav id="mobile_menu_content" class="navbar-nav-mobile">
+					<a href="#home">Главная</a>
+					<a href="#features">Преимущества</a>
+					<a href="#faq">FAQ</a>
+					<a href="#newsletter">Скачать</a>
+					<a href="#contact">Контакты</a>
+				</nav>
+			</div>
+			<header id="header" class="header navbar navbar-light animated">
+				<div class="container">
+					<a href="#" class="navbar-brand"> <span class="logo">M</span><span>Диспетчерская</span></a>
+					<div class="navbar">
+						<ul class="nav navbar-nav pull-right">
+							<li class="nav-item"><a href="#home">Главная</a></li>
+							<li class="nav-item"><a href="#features">Преимущества</a></li>
+							<li class="nav-item"><a href="#faq">FAQ</a></li>
+							<li class="nav-item"><a href="#download">Скачать</a></li>
+							<li class="nav-item"><a href="#contact">Контакты</a></li>
+						</ul>
+						<div class="pull-right togger-container">
+							<span id="showRight" class="zmdi zmdi-menu navbar-toggler"></span>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="main-content">
+				<div id="hero" class="hero">
+					<div class="hero-inner">
+						<div class="container">
+							<div class="col-lg-3">
+								<h1>Диспетчерская on-line</h1>
+								<h4 data-wow-delay="0.3s">Малый маркетинговый текст</h4>
+								<p data-wow-delay="0.6s">Большой маркетинговый текст и справа скриншоты картинки... </p>
+
+								<a href="#download" class="btn btn-primary btn-cta btn-lg btn-raised ui-wave">Скачайте сейчас</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="features" class="features">
+					<header>
+						<h2 class="section-heading-underline">Ключивые преимущества</h2>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="feature-item col-md-4 text-center wow fadeInUp">
+								<div class="icon-container"><span class="zmdi zmdi-palette"></span></div>
+								<h3>Удобный и продуманный интерфейс</h3>
+								<div class="desc">
+									<p>Создание заявки на рейс в 2 клика!</p>
+								</div>
+							</div>
+							<div data-wow-delay="0.3s" class="feature-item col-md-4 text-center wow fadeInUp">
+								<div class="icon-container"><span class="zmdi zmdi-view-web"></span></div>
+								<h3>Полная автоматизация</h3>
+								<div class="desc">
+									<p>Наше приложение покрывает все нужды вашего бизнесса</p>
+								</div>
+							</div>
+							<div data-wow-delay="0.6s" class="feature-item col-md-4 text-center wow fadeInUp">
+								<div class="icon-container"><span class="zmdi zmdi-desktop-windows"></span></div>
+								<h3>Настольное приложение</h3>
+								<div class="desc">
+									<p>Наше приложение не зависит от вашего браузера</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="feature-item col-md-4 text-center wow fadeInUp">
+								<div class="icon-container"><span class="zmdi zmdi-tablet-mac"></span></div>
+								<h3>Приложение для планшетов</h3>
+								<div class="desc">
+									<p>Но будет работать и на планшете</p>
+								</div>
+							</div>
+							<div data-wow-delay="0.3s" class="feature-item col-md-4 text-center wow fadeInUp">
+								<div class="icon-container"><span class="zmdi zmdi-edit"></span></div>
+								<h3>Высокая производительность</h3>
+								<div class="desc">
+									<p>Ваши диспетчера смогут радикально улучшить ваш сервис</p>
+								</div>
+							</div>
+							<div data-wow-delay="0.6s" class="feature-item col-md-4 text-center wow fadeInUp">
+								<div class="icon-container"><span class="zmdi zmdi-pin"></span></div>
+								<h3>Высокая мобильность</h3>
+								<div class="desc">
+									<p>Приложение для водителей и пассажиров позволит вам быть всегда на связи</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="faq" class="faq">
+					<div class="container">
+						<header>
+							<h2 class="section-heading-underline">FAQs</h2>
+						</header>
+						<ul class="faq-list">
+							<li class="wow fadeInLeft">
+								<h4 class="faq-q">Как это работает?</h4>
+								<p class="faq-a">Скачайте установщик, и пройдите простую регистрацию.</p>
+							</li>
+							<li class="wow fadeInRight">
+								<h4 class="faq-q">Что мы предоставляем?</h4>
+								<p class="faq-a">Настольное приложение или приложение для планшетов на андроид или win 8.1.</p>
+							</li>
+							<li data-wow-delay="0.15s" class="wow fadeInLeft">
+								<h4 class="faq-q">А что еще?</h4>
+								<p class="faq-a">Удобное приложение для водителей</p>
+							</li>
+							<li data-wow-delay="0.15s" class="wow fadeInRight">
+								<h4 class="faq-q">А как же онлайн бронирование??</h4>
+								<p class="faq-a">Да! Вместе с приложение идет удобный конструктор фрейма для простой интеграции с вашим сайтом.</p>
+							</li>
+							<li data-wow-delay="0.3s" class="wow fadeInLeft">
+								<h4 class="faq-q">Что если у меня нет сайта?</h4>
+								<p class="faq-a">Не беда, мы сможем сделать для вас ваш уникальный сайт для онлайн бронирования.</p>
+							</li>
+							<li data-wow-delay="0.3s" class="wow fadeInRight">
+								<h4 class="faq-q">Может еще что-то завалялось?</h4>
+								<p class="faq-a">Конечно! Есть еще приложение для пассажиров под андроид.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="download" data-stellar-background-ratio="0.6" class="newsletter">
+					<h2>Скачайте уже сейчас</h2>
+					<form>
+						<fieldset>
+							<a href="https://onedrive.live.com/redir?resid=C87241237D88DAF7!1507&authkey=!AOeBQxQHQg2C5sM&ithint=folder%2capk" target="_blank" type="submit" data-wow-delay="0.15s" 
+							   class="btn btn-primary btn-lg btn-raised ui-wave wow fadeInUp">Скачать</a>
+						</fieldset>
+					</form>
+				</div>
+				<div id="contact" class="contact">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5">
+								<h3 class="section-heading-underline">Контактная информация</h3>
+								<div class="contact-info-container wow fadeInLeft">
+									<p class="lead"> Feel free to contact us, if you have any questions, we'll be glad to help.</p>
+									<ul class="list-unstyled contact-info">
+										<li> <span class="zmdi zmdi-pin"></span>ул. Бухаресткая 64, Санкт-Петербург, РФ</li>
+										<li><span class="zmdi zmdi-phone"></span>+7 (921) 977 90 78</li>
+										<li><span class="zmdi zmdi-email"></span>laskoviymishka@gmail.com</li>
+										<li><span class="zmdi zmdi-city-alt"></span>www.shuttleBus.io</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-5 col-md-offset-2">
+								<h3 class="section-heading-underline">Обратная связь</h3>
+								<form novalidate class="form-horizontal wow fadeInRight">
+									<fieldset>
+										<div class="form-group">
+											<div class="ui-input-group">
+												<input type="text" required class="form-control"><span class="input-bar"></span>
+												<label>Email</label>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="ui-input-group">
+												<textarea type="text" required rows="5" class="form-control"></textarea><span class="input-bar"></span>
+												<label>Сообщение                                </label>
+											</div>
+										</div>
+										<div class="divider"></div>
+										<div class="form-group">
+											<button class="btn btn-raised btn-primary btn-w-sm ui-wave">Отправить</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="action-call text-center">
+					<span>Узнайте подробности как пользоваться приложением на нашей вики!</span>
+					<a href="https://github.com/laskoviymishka/shuttleApp/wiki" target="_blank" 
+					   class="btn btn-default btn-cta btn-lg btn-raised ui-wave">Подробности<span class="zmdi zmdi-chevron-right"></span></a>
+				</div>
+			</div>
+			<footer class="footer text-center"><span>© Copyright <span id="copyright"></span> Andrei Tserakhau</span></footer>
+		</div>
+	</div>
+	<!-- Scripts-->
+	<script src="lib/jquery/dist/jquery.min.js"></script>
+	<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/loader.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
